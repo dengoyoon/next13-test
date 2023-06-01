@@ -33,7 +33,7 @@ type Props = {
   
     return (
       <div>
-        you entered :<span className='ml-4'>{searchTerm}</span>
+        you entered :<span>{searchTerm}</span>
         <ol>
           {searchResults?.map(result => (
             <li key={result.place_id}>
